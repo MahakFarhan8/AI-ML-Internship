@@ -1,0 +1,276 @@
+Ticket,Zero-Shot Prediction,Few-Shot Prediction
+"I'm having an issue with the {product_purchased}. Please assist.
+
+Your billing zip code is: 71701.
+
+We appreciate that you have requested a website address.
+
+Please double check your email address. I've tried troubleshooting steps mentioned in the user manual, but the issue persists.","Technical Issue - 0.8
+Account Management - 0.1
+Other - 0.1 
+
+ Reasoning: The ticket mentions a specific issue with the product purchased and troubleshooting steps from the user manual, indicating a technical problem. Although there's a mention of a billing zip code, it seems to be incidental information and not the primary concern of the ticket. The mention of a website address and email address also suggests some account or configuration aspect, but it's not the main focus.","Based on the text, here are the top 3 most likely categories with confidence scores:
+
+Technical Issue - 0.8
+Account Management - 0.1
+Billing - 0.1
+
+The ticket mentions a specific issue with a product, troubleshooting steps, and a user manual, which strongly suggests a technical issue. The mention of a billing zip code and email address could be related to account information, but it appears to be secondary to the technical issue at hand. Therefore, Technical Issue has the highest confidence score."
+"I'm having an issue with the {product_purchased}. Please assist.
+
+If you need to change an existing product.
+
+I'm having an issue with the {product_purchased}. Please assist.
+
+If The issue I'm facing is intermittent. Sometimes it works fine, but other times it acts up unexpectedly.","Technical Issue - 0.8
+Other - 0.1
+Account Management - 0.1 
+
+Note: The ticket seems to be primarily about a technical issue with a product, hence the high score for ""Technical Issue"". The mention of an intermittent issue and the request for assistance also point towards a technical problem. The scores for ""Other"" and ""Account Management"" are lower as the ticket does not explicitly mention billing, account management, or password reset issues.","Based on the ticket description, the top 3 most likely categories with confidence scores are:
+
+Technical Issue - 0.8
+Account Management - 0.1
+Other - 0.1
+
+The ticket mentions having an issue with a product, which suggests a technical problem. The description of the issue being intermittent also supports this classification. The low scores for Account Management and Other categories are due to the lack of specific information related to account changes or other non-technical issues."
+"I'm facing a problem with my {product_purchased}. The {product_purchased} is not turning on. It was working fine until yesterday, but now it doesn't respond.
+
+1.8.3 I really I'm using the original charger that came with my {product_purchased}, but it's not charging properly.","Technical Issue - 0.9
+Billing - 0.05
+Account Management - 0.05 
+
+The ticket is most likely related to a Technical Issue because the user is reporting a problem with their product not turning on and not charging properly. The mention of the product not responding and the use of the original charger suggests a technical problem rather than a billing or account management issue.","Based on the content of the ticket, the top 3 most likely categories with confidence scores are:
+
+Technical Issue - 0.9
+Billing - 0.05
+Account Management - 0.05
+
+The ticket is most likely a Technical Issue because the customer is reporting a problem with their product not turning on and not charging properly, which suggests a hardware or software issue. The mention of using the original charger and the product working fine until yesterday further supports this classification. The other categories have low confidence scores because the ticket does not mention any billing or account management issues."
+"I'm having an issue with the {product_purchased}. Please assist.
+
+If you have a problem you're interested in and I'd love to see this happen, please check out the Feedback. I've already contacted customer support multiple times, but the issue remains unresolved.","Technical Issue - 0.8
+Account Management - 0.1
+Other - 0.1","Technical Issue - 0.8
+Account Management - 0.1
+Billing - 0.1 
+
+Reasoning: The ticket mentions a specific issue with a product, which suggests a problem that needs to be resolved, pointing towards a Technical Issue. Although the ticket also mentions contacting customer support multiple times, the primary concern seems to be the product issue, making Technical Issue the most likely category. The mention of customer support and a product issue makes Account Management and Billing less likely, but still possible, hence the lower confidence scores."
+"I'm having an issue with the {product_purchased}. Please assist.
+
+
+Note: The seller is not responsible for any damages arising out of the delivery of the battleground game. Please have the game in good condition and shipped to you I've noticed a sudden decrease in battery life on my {product_purchased}. It used to last much longer.","Technical Issue - 0.8
+Billing - 0.05
+Account Management - 0.05 
+
+Note: The ticket primarily describes a problem with the product's battery life, which suggests a technical issue. The mention of a product and an issue with its performance makes Technical Issue the most likely category. Billing and Account Management are less likely as the ticket does not mention any billing or account-related concerns.","Based on the provided ticket, here are the top 3 most likely categories with confidence scores:
+
+1. Technical Issue - 0.8
+2. Other - 0.15
+3. Account Management - 0.05
+
+The ticket mentions a specific issue with the product purchased, which is a sudden decrease in battery life. This suggests a technical problem, hence the high confidence score for Technical Issue. The mention of the product and its condition also introduces some ambiguity, which is why Other has a relatively low but non-zero confidence score. Account Management has a very low score since there's no clear connection to account-related issues in the ticket."
+"I'm facing a problem with my {product_purchased}. The {product_purchased} is not turning on. It was working fine until yesterday, but now it doesn't respond. To remove the new {product_purch I've checked for any available software updates for my {product_purchased}, but there are none.","Technical Issue - 0.9
+Account Management - 0.05
+Other - 0.05 
+
+Reasoning: The ticket describes a problem with a product not turning on, which suggests a technical fault. The user has also checked for software updates, indicating they have taken steps to troubleshoot the issue, further pointing towards a technical problem. The low scores for Account Management and Other reflect that the issue is specifically related to the product's functionality rather than account-related queries or unrelated topics.","Based on the content of the ticket, here are the top 3 most likely categories with confidence scores:
+
+Technical Issue - 0.9
+Account Management - 0.05
+Billing - 0.05
+
+The ticket is most likely related to a Technical Issue because the customer is describing a problem with their product, specifically that it's not turning on, and they've already taken some troubleshooting steps (checking for software updates). The language used suggests a technical problem rather than a billing or account management issue."
+"I'm unable to access my {product_purchased} account. It keeps displaying an 'Invalid Credentials' error, even though I'm using the correct login information. How can I regain access to my account?
+
+Solution 1 I'm unable to find the option to perform the desired action in the {product_purchased}. Could you please guide me through the steps?","Technical Issue - 0.6
+Account Management - 0.3
+Password Reset - 0.1 
+
+The ticket is classified as a Technical Issue because the user is experiencing an error with their login credentials, which suggests a problem with the product or system. Although the issue is related to account access, the primary concern is the technical problem preventing login, hence Technical Issue has the highest score. Account Management is the second most likely category, as the issue is related to the user's account. Password Reset is also a possibility, but it seems less likely since the user claims to be using the correct login information.","Based on the ticket description, here are the top 3 most likely categories with confidence scores:
+
+1. Account Management - 0.6
+2. Technical Issue - 0.3
+3. Password Reset - 0.1
+
+The ticket mentions an ""Invalid Credentials"" error, which could indicate a password issue, but the user claims to be using the correct login information. This suggests that the issue might be related to account management or a technical problem, rather than a simple password reset. The mention of regaining access to the account also points towards account management. However, the technical issue category is still a possibility, which is why it has a score of 0.3. Password reset has the lowest score, as the user doesn't explicitly state that they've forgotten their password."
+"I'm having an issue with the {product_purchased}. Please assist. (Thanks) I will contact all my suppliers and confirm.
+
+Please try and find out whether their inventory is currently stocked, or any other reason. I am I've performed a factory reset on my {product_purchased}, hoping it would resolve the problem, but it didn't help.","Based on the content of the ticket, here are the top 3 most likely categories with confidence scores:
+
+Technical Issue - 0.8
+Other - 0.12
+Account Management - 0.08
+
+The ticket is most likely a Technical Issue because the user mentions a specific problem with the product they purchased and has already attempted to troubleshoot by performing a factory reset. The mention of contacting suppliers and checking inventory suggests that the issue may be related to the product's functionality or compatibility, which is also a technical concern. The other categories have lower confidence scores because the ticket does not explicitly mention billing, account management, or password reset issues.","Based on the ticket content, here are the top 3 most likely categories with confidence scores:
+
+Technical Issue - 0.8
+Account Management - 0.1
+Other - 0.1
+
+The ticket is most likely a Technical Issue because the user mentions a specific problem with the product they purchased and has already attempted a factory reset to resolve it, which is a common troubleshooting step for technical problems. The mention of contacting suppliers and checking inventory is less relevant to the main issue, but still suggests that the user is trying to troubleshoot or gather more information about the product, which further supports the Technical Issue category."
+"I'm having an issue with the {product_purchased}. Please assist. Thank you.
+
+{product_purchased} is not the exact type you might prefer, they use the exact same method for different uses. Please help I've recently updated the firmware of my {product_purchased}, and the issue started happening afterward. Could it be related to the update?","Technical Issue - 0.8
+Account Management - 0.1
+Billing - 0.1 
+
+Reasoning: The ticket describes a problem with a product after a firmware update, which is a strong indicator of a technical issue. The customer is seeking assistance with the product, not with their account or billing, which is why Technical Issue has the highest confidence score. Account Management and Billing have low confidence scores because the issue described is related to the product's functionality, not the customer's account or payment information.","Based on the content of the ticket, the top 3 most likely categories with confidence scores are:
+
+Technical Issue - 0.8
+Account Management - 0.1
+Billing - 0.1
+
+The ticket is most likely related to a Technical Issue because the customer is reporting a problem with a product they purchased, which started happening after a firmware update. This suggests a technical problem that needs to be resolved. The mention of a specific product and a recent update also supports this classification. The other categories have lower confidence scores because the ticket does not mention anything related to billing or account management."
+"My {product_purchased} is making strange noises and not functioning properly. I suspect there might be a hardware issue. Can you please help me with this?
+
+} If we can, please send a ""request"" to dav The issue I'm facing is intermittent. Sometimes it works fine, but other times it acts up unexpectedly.","Based on the provided ticket, the top 3 most likely categories are:
+
+Technical Issue - 0.9
+Account Management - 0.05
+Other - 0.05
+
+The high confidence score for Technical Issue is due to the mention of ""strange noises"", ""not functioning properly"", and ""hardware issue"", which are all indicative of a technical problem. The low confidence scores for Account Management and Other are because the ticket does not mention anything related to account management or other non-technical issues. Billing and Password Reset are not relevant to the ticket at all, which is why they are not included in the top 3.","Based on the ticket description, here are the top 3 most likely categories with confidence scores:
+
+1. Technical Issue - 0.8
+2. Other - 0.15
+3. Account Management - 0.05
+
+The ticket is most likely a Technical Issue because the customer is describing a problem with a product they purchased, mentioning strange noises, hardware issues, and intermittent functionality. This suggests a problem with the product itself, which is a technical concern. The Other category is a distant second, as the issue might not fit neatly into one of the other categories, but it's less likely. Account Management is the least likely, as the customer is not discussing account-related issues, such as email changes or password resets."
+"I'm having an issue with the {product_purchased}. Please assist. 1-800-799-0808.
+
+Product Search: What's New in 2-3-4-5? Report Feedback Customer Service is your best I'm using the original charger that came with my {product_purchased}, but it's not charging properly.","Technical Issue - 0.8
+Account Management - 0.1
+Other - 0.1 
+
+The ticket is most likely a Technical Issue because the customer is reporting a problem with the product they purchased, specifically with the charger. The mention of using the original charger and it not charging properly suggests a technical problem that needs to be addressed. The other categories have lower confidence scores as the issue described does not directly relate to billing, account management, or password reset.","Based on the provided ticket, here are the top 3 most likely categories with confidence scores:
+
+Technical Issue - 0.8
+Account Management - 0.1
+Billing - 0.1
+
+The ticket is most likely related to a Technical Issue because the user is reporting a problem with their product (specifically, the charger not charging properly). The mention of a specific product and its accessory suggests a technical problem rather than a billing or account management issue. The other categories have lower confidence scores as the ticket does not mention any billing or account-related concerns."
+"I'm having an issue with the {product_purchased}. Please assist.
+
+4. It is possible that we cannot find some type of text or a product name to identify someone like Mr. Brown.
+
+5. On the I've reviewed the troubleshooting steps on the official support website, but they didn't resolve the problem.","Based on the ticket content, here are the top 3 most likely categories with confidence scores:
+
+Technical Issue - 0.8
+Other - 0.1
+Account Management - 0.1
+
+The ticket mentions a specific issue with a product and that the user has already tried troubleshooting steps, which suggests a technical problem. The low scores for ""Other"" and ""Account Management"" are due to the lack of specific keywords or phrases that would indicate a billing, account, or password-related issue.","Based on the provided ticket, here are the top 3 most likely categories with confidence scores:
+
+Technical Issue - 0.8
+Account Management - 0.1
+Other - 0.1
+
+The ticket is most likely a Technical Issue because the user mentions having an issue with a product and has already tried troubleshooting steps, which suggests a problem with the product's functionality. The low scores for Account Management and Other categories are due to the lack of any explicit mentions of account-related issues or unrelated topics."
+"I'm having an issue with the {product_purchased}. Please assist.
+
+CQW: Why didn't I send him the invoice? Thanks a lot.
+
+L: He's like the best customer I've met. I've noticed that the issue occurs consistently when I use a specific feature or application on my {product_purchased}.","Technical Issue - 0.8
+Account Management - 0.1
+Billing - 0.1 
+
+Reasoning: The customer mentions a specific issue with the product purchased and describes a consistent problem when using a particular feature, which strongly suggests a technical issue. The mention of an invoice in the CQW (likely a note from a representative) is brief and doesn't seem directly related to the customer's main concern, making Billing less likely. Account Management is also less relevant as the customer's issue appears to be with the product's functionality rather than their account.","Based on the provided ticket, here are the top 3 most likely categories with confidence scores:
+
+1. Technical Issue - 0.8
+2. Other - 0.12
+3. Billing - 0.08
+
+The ticket primarily describes an issue with a specific product, mentioning a consistent problem when using a particular feature. This suggests a technical problem, hence the high score for Technical Issue. The mention of an invoice in the CQW (likely a note from a support agent) introduces a slight possibility of a billing-related issue, but it's not the primary concern. The ""Other"" category gets a low score as the issue seems to be related to a product, which is more technical in nature."
+"I've recently set up my {product_purchased}, but it fails to connect to any available networks. What steps should I take to troubleshoot this issue?
+
+I can't find the 'Product_IP' field of the I'm concerned about the security of my {product_purchased} and would like to ensure that my data is safe.","Technical Issue - 0.8
+Account Management - 0.1
+Other - 0.1 
+
+Reasoning: The ticket primarily discusses a connectivity issue with the product and troubleshooting steps, which points towards a Technical Issue. The mention of security and data safety is secondary and somewhat vague, but it could be related to the product's configuration or setup, which is still more technical in nature.","Based on the ticket description, the top 3 most likely categories with confidence scores are:
+
+Technical Issue - 0.8
+Account Management - 0.1
+Other - 0.1 
+
+The ticket is most likely a Technical Issue because the customer is experiencing connectivity problems with their product and is seeking troubleshooting steps. Although the customer mentions security concerns, it is in the context of troubleshooting the connection issue, rather than a primary concern about account management or password reset. The mention of 'Product_IP' field also suggests a technical problem. Hence, Technical Issue has the highest confidence score."
+"I'm having an issue with the {product_purchased}. Please assist.
+
+Product Name: TPUBASK3E3KQ0
+
+
+Join Date: Oct 2007 Posts: 11,532
+
+Quote: I've recently updated the firmware of my {product_purchased}, and the issue started happening afterward. Could it be related to the update?","Technical Issue - 0.9
+Account Management - 0.05
+Other - 0.05 
+
+Reasoning: The user is describing a problem with their product that began after a firmware update, which suggests a technical issue. The mention of a specific product and a recent update points towards a technical problem, hence the high confidence score for Technical Issue. The other categories have lower confidence scores as the issue described does not directly relate to billing, account management, or password reset.","Based on the ticket description, the top 3 most likely categories with confidence scores are:
+
+Technical Issue - 0.8
+Account Management - 0.1
+Billing - 0.1
+
+The ticket is most likely a Technical Issue because the user mentions a specific problem with the product after updating the firmware, indicating a technical problem that needs to be resolved. The scores for Account Management and Billing are lower because there is no mention of account-related issues or billing concerns in the ticket."
+"I'm having an issue with the {product_purchased}. Please assist.
+
+
+Please note, you might have already paid for this product, which means spectators are not buying any of the products from the sale as their donations will go straight I've noticed a sudden decrease in battery life on my {product_purchased}. It used to last much longer.","Technical Issue - 0.8
+Billing - 0.1
+Account Management - 0.1 
+
+Reasoning: The ticket mentions a specific issue with the product purchased, which is a decrease in battery life. This indicates a problem with the product's functionality, making ""Technical Issue"" the most likely category. The mention of payment is brief and seems to be just a note, rather than the main concern of the ticket, which is why ""Billing"" has a lower score. ""Account Management"" is also unlikely as the ticket does not discuss any account-related issues.","Technical Issue - 0.8
+Billing - 0.1
+Account Management - 0.1 
+
+Reasoning: The ticket mentions a specific issue with the product (""sudden decrease in battery life"") and asks for assistance, which suggests a technical problem. Although there's a mention of payment, it's not the primary concern of the ticket, hence the lower score for Billing. Account Management is unlikely as there's no mention of account-related changes or modifications."
+"I'm having an issue with the {product_purchased}. Please assist.
+
+- Acknowledgement: Thanks to Dan for the tip. When you purchase a new product from my store or from your local retailer, they will also provide I'm concerned about the security of my {product_purchased} and would like to ensure that my data is safe.","Technical Issue - 0.6
+Account Management - 0.2
+Other - 0.2","Based on the provided ticket, here are the top 3 most likely categories with confidence scores:
+
+Technical Issue - 0.6
+Account Management - 0.2
+Other - 0.2
+
+The ticket mentions having an issue with a product, which suggests a technical problem, hence the highest score for Technical Issue. The mention of security and data safety could be related to account management, but it's not a clear indication, resulting in a lower score. The ticket doesn't fit neatly into the other categories, so ""Other"" is also a possibility, but with a lower score. Billing and Password Reset seem unlikely based on the provided text, so they are not included in the top 3."
+"I'm having an issue with the {product_purchased}. Please assist. Thanks!""
+
+* [0] - [0] - [0] - [0]
+
+If this product is sold and you have not used any I've reviewed the troubleshooting steps on the official support website, but they didn't resolve the problem.","Technical Issue - 0.8
+Account Management - 0.1
+Other - 0.1 
+
+The ticket is most likely related to a Technical Issue, as the user is reporting a problem with the product they purchased and has already attempted to troubleshoot using the official support website. The other categories have lower confidence scores, as the ticket does not explicitly mention billing, account management, or password reset issues.","Based on the given ticket, the top 3 most likely categories are:
+
+Technical Issue - 0.8
+Other - 0.1
+Account Management - 0.1
+
+The high confidence score for Technical Issue is due to the phrase ""having an issue with the {product_purchased}"", which suggests a problem with the product's functionality. The low scores for Other and Account Management are because the ticket doesn't explicitly mention billing, account changes, or password-related issues."
+"I'm having an issue with the {product_purchased}. Please assist. I want to be an active member of our community on YouTube... The issue I'm facing is intermittent. Sometimes it works fine, but other times it acts up unexpectedly.","Technical Issue - 0.8
+Other - 0.1
+Account Management - 0.1 
+
+Reasoning: The ticket mentions a specific issue with a product, describing it as intermittent and unexpected, which suggests a technical problem. The mention of being an active member of a community on YouTube is somewhat unrelated to the main issue, which is why ""Other"" has a low score. ""Account Management"" also has a low score as there is no direct indication of account-related issues in the ticket. ""Billing"" and ""Password Reset"" are not relevant to the description provided.","Based on the ticket description, here are the top 3 most likely categories with confidence scores:
+
+Technical Issue - 0.8
+Account Management - 0.1
+Other - 0.1
+
+The ticket is most likely a Technical Issue because the user mentions having an issue with a product, describes the issue as intermittent, and states that it ""acts up unexpectedly"", which suggests a problem with the product's functionality. The mention of being an active member of a community on YouTube is not directly related to the issue, but it does imply that the user is trying to use the product to participate in online activities, which further supports the Technical Issue classification."
+"I'm having an issue with the {product_purchased}. Please assist.
+
+I'm having an issue with the product_purchased}. Please assist. Customer Reviewer: My Husband was able to take an order from Apple I've checked for any available software updates for my {product_purchased}, but there are none.","Technical Issue - 0.8
+Account Management - 0.1
+Other - 0.1 
+
+Reasoning: The customer mentions having an issue with the product and checking for software updates, which suggests a problem with the product's functionality, making ""Technical Issue"" the most likely category. The mention of an order from Apple and the husband being able to take it is unclear and doesn't directly relate to the customer's issue, but it does imply some sort of account or order management, hence the low score for ""Account Management"". ""Other"" is also a possibility due to the unclear mention of the order, but it's less likely than ""Technical Issue"".","Based on the content of the ticket, here are the top 3 most likely categories with confidence scores:
+
+Technical Issue - 0.8
+Account Management - 0.1
+Other - 0.1
+
+The ticket is most likely a Technical Issue because the customer is reporting a problem with a specific product and has already taken troubleshooting steps (checking for software updates). The mention of a specific product and the context of the issue suggest a technical problem, which is why Technical Issue has the highest confidence score. The other categories have lower scores because the ticket does not mention billing, account management, or password reset issues."
